@@ -1,0 +1,23 @@
+{
+  "name": "peerio-amqp-jobs",
+  "version": "0.0.1",
+  "description": "AMAP jobs manager",
+  "author": "Peerio",
+  "private": true,
+  "scripts": {
+    "postinstall": "make postinstall"
+  },
+  "dependencies": {
+    "amqp": "latest",
+    "bluebird": "latest"
+  },
+  "devDependencies": {
+    "expect": "latest",
+    "mocha": "latest",
+    "q": "latest",
+    "winston": "latest"
+  },
+  "engines": {
+    "node": "6.9.1"
+  }
+}

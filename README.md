@@ -1,0 +1,3 @@
+# Peerio-AMQP-Jobs
+
+DIY-job-manager based on amqp ...

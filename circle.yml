@@ -1,0 +1,12 @@
+machine:
+  environment:
+    AMQP_HOST: 127.0.0.1
+    AMQP_PORT: 5672
+    NODE_ENV: travis
+  node:
+    version: 6.9.1
+  services:
+    - rabbitmq-server
+test:
+  override:
+    - make test
