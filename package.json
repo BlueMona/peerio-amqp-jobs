@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "AMAP jobs manager",
   "author": "Peerio",
-  "license": "ISC":
+  "license": "ISC",
   "private": true,
   "scripts": {
     "postinstall": "make postinstall"
